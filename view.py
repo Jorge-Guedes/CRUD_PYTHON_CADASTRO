@@ -17,7 +17,7 @@ def inserir_info(i):
     with connection:
         cur = connection.cursor()
         query = "INSERT INTO formulario (nome, email, telefone, dia_em_, estado, assunto) VALUES (?, ?, ?, ?, ?, ?)"
-        cur.execute(query, i)
+        cur.execute(query)
 
 # Acessar informacoes
 def mostrar_info():
