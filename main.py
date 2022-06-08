@@ -109,7 +109,6 @@ def atualizar():
         messagebox.showerror('Erro', 'Seleciona um dos dados na tabela')
 
         # funcao update
-        '''
         def update():
             nome = e_nome.get()
             email = e_email.get()
@@ -141,8 +140,6 @@ def atualizar():
             b_confirmar.place(x=105, y=380)
 
             mostrar()
-
-        '''
 
 
 
